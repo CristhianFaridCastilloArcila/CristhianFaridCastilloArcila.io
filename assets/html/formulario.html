@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
     <style>
         .footer-basic {
           padding:40px 0;
@@ -62,10 +62,26 @@
       <li id="nav"><a href="./assets/html/lista.html">Lista</a></li>
       <li id="nav"><a href="./assets/html/subindice.html">Subindice</a></li>
       <li id="nav"><a href="./assets/html/tabla.html">Tabla</a></li>
-      <li id="nav"><a href="./assets/html/youtube.html">Youtbue</a></li>
+      <li id="nav"><a href="./assets/html/youtube.html">Youtube</a></li>
     </ul>
 </nav>
-
+<form action="" method="POST">
+  <label for="Nombre">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value="" maxlength="60"><br>
+  <label for="Apellidos">Apellidos:</label><br>
+  <input type="text" id="lname" name="lname" value="" maxlength="150"><br><br>
+  <label for="ejem">Numero de Ejemplares:</label>
+  <input type="number" id="ejem" name="ejem" min="1" max="10"><br><br>
+  <label for="sucripcion">Tipo de suscripción:</label>
+  <select name="suscrip" id="suscrip">
+    <option selected></option>
+    <option value="Mensual">Mensual</option>
+    <option value="Trimestal">Trimestal</option>
+    <option value="Anual">Anual</option>
+  </select><br><br>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Borrar"><br><br>
+</form>
     <div class="footer-basic">
         <footer>            
             <ul class="list-inline">

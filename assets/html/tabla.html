@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabla</title>
     <style>
-        .footer-basic {
-          padding:40px 0;
-          background-color:brown;
-          color:white;
-        }
-        
-        .footer-basic ul {
-          padding:0;
-          list-style:none;
-          text-align:center;
-          font-size:18px;
-          line-height:1.6;
-          margin-bottom:0;
-        }
-        
-        .footer-basic li {
-          padding:0 10px;
-        }
-        
-        .footer-basic ul a {
-          color:inherit;
-          text-decoration:none;
-          opacity:0.8;
-        }
-        ul.nav {
+      .footer-basic {
+        padding: 40px 0;
+        background-color: brown;
+        color: white;
+      }
+
+      .footer-basic ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+
+      .footer-basic li {
+        padding: 0 10px;
+      }
+
+      .footer-basic ul a {
+        color: inherit;
+        text-decoration: none;
+        opacity: 0.8;
+      }
+      ul.nav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -49,31 +49,58 @@
         background-color: #555;
         color: white;
       }
-        </style>
-</head>
-<body>
-  <nav>
-    <ul>
-      <li id="nav"><a href="./assets/html/cita.html">Cita</a></li>
-      <li id="nav"><a href="./assets/html/definicion.html">Definicion</a></li>
-      <li id="nav"><a href="./assets/html/detalles.html">Detalles</a></li>
-      <li id="nav"><a href="./assets/html/dialogo.html">Dialogo</a></li>
-      <li id="nav"><a href="./assets/html/formulario.html">Formulario</a></li>
-      <li id="nav"><a href="./assets/html/imagen.html">Imagen</a></li>
-      <li id="nav"><a href="./assets/html/lista.html">Lista</a></li>
-      <li id="nav"><a href="./assets/html/subindice.html">Subindice</a></li>
-      <li id="nav"><a href="./assets/html/youtube.html">Youtbue</a></li>
-    </ul>
-</nav>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li id="nav"><a href="./assets/html/cita.html">Cita</a></li>
+        <li id="nav"><a href="./assets/html/definicion.html">Definicion</a></li>
+        <li id="nav"><a href="./assets/html/detalles.html">Detalles</a></li>
+        <li id="nav"><a href="./assets/html/dialogo.html">Dialogo</a></li>
+        <li id="nav"><a href="./assets/html/formulario.html">Formulario</a></li>
+        <li id="nav"><a href="./assets/html/imagen.html">Imagen</a></li>
+        <li id="nav"><a href="./assets/html/lista.html">Lista</a></li>
+        <li id="nav"><a href="./assets/html/subindice.html">Subindice</a></li>
+        <li id="nav"><a href="./assets/html/youtube.html">Youtube</a></li>
+      </ul>
+    </nav>
+    <table>
+      <tr>
+        <th colspan="6">EmpresaInventada</th>
+      </tr>
+      <tr><th rowspan="3">Facturación</th></tr>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Veirnes</th>
+      </tr>
+      <tr>
+        <th>400€</th>
+        <th>674€</th>
+        <th>1045€</th>
+        <th>2039€</th>
+        <th>5034€</th>
+      </tr>
+    </table>
     <div class="footer-basic">
-        <footer>            
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Cristhian Farid</a></li>
-                <li class="list-inline-item"><a href="#">Castillo Arcila</a></li>
-                <li class="list-inline-item"><a href="#">8295</a></li>
-                <li class="list-inline-item"><a href="mailto:cristhianfaridcastilloarcila_8295@escuelaces.net">cristhianfaridcastilloarcila_8295@escuelaces.net</a></li>
-            </ul>
-        </footer>
+      <footer>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Cristhian Farid</a></li>
+          <li class="list-inline-item"><a href="#">Castillo Arcila</a></li>
+          <li class="list-inline-item"><a href="#">8295</a></li>
+          <li class="list-inline-item">
+            <a href="mailto:cristhianfaridcastilloarcila_8295@escuelaces.net">cristhianfaridcastilloarcila_8295@escuelaces.net</a>
+          </li>
+        </ul>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
